@@ -32,3 +32,18 @@ Faça o upload do arquivo answer.csv usando o botão "Submeter resposta".
 ## Observações
 
 O objetivo do desafio é avaliar a sua capacidade de resolver problemas, então ele pode ser resolvido em qualquer linguagem de programação ou ferramenta que você tenha facilidade. Mas recomendamos o uso de linguagens com maior ferramental de matemática e estatística como Python, R, Scala ou Julia.
+
+## Dependências
+Para instalar as dependencias, utilizar os arquivos [env/requirements.txt](./env/requirements.txt)
+ ou [env/codenation.yml](env/codenation.yml).
+Ex.:
+
+```bash
+conda env create -f [env/requirements.txt](./env/requirements.txt)
+```
+
+ou
+
+```bash
+conda create --name codenation --file env/codenation.yml](env/codenation.yml)
+```
