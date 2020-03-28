@@ -39,11 +39,11 @@ Para instalar as dependencias, utilizar os arquivos [requirements.txt](./require
 Ex.:
 
 ```bash
-conda env create -f [requirements.txt](./requirements.txt)
+conda env create -f requirements.txt
 ```
 
 ou
 
 ```bash
-conda create --name codenation --file codenation.yml](./codenation.yml)
+conda create --name codenation codenation.yml
 ```
